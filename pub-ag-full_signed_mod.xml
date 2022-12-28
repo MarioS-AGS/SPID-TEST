@@ -143,7 +143,7 @@ E6AwQUTszzPQ4Pmj81iRmTwDjE80dWvZarvFn1U2OZj+7usY</ds:X509Certificate>
         <md:OrganizationURL xml:lang="it">https://sfa-service-dev-ed.develop.my.salesforce.com/
         </md:OrganizationURL>
     </md:Organization>
-    <md:ContactPerson contactType="other" spid:entityType="">
+    <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
         <md:Extensions>
             <spid:VATNumber>IT000000000000</spid:VATNumber>
             <spid:PublicServicesFullAggregator/>
@@ -152,5 +152,11 @@ E6AwQUTszzPQ4Pmj81iRmTwDjE80dWvZarvFn1U2OZj+7usY</ds:X509Certificate>
         <md:EmailAddress>email@aggregator.it</md:EmailAddress>
         <md:TelephoneNumber>+3912345678</md:TelephoneNumber>
     </md:ContactPerson>
-   
+    <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+        <md:Extensions>
+            <spid:IPACode>IPA</spid:IPACode>
+            <spid:Public/>
+        </md:Extensions>
+        <md:Company>Organizzazione fittizia per il collaudo</md:Company>
+    </md:ContactPerson>
 </md:EntityDescriptor>

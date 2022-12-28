@@ -148,6 +148,7 @@ E6AwQUTszzPQ4Pmj81iRmTwDjE80dWvZarvFn1U2OZj+7usY</ds:X509Certificate>
       <spid:IPACode xmlns:spid="https://spid.gov.it/saml-extensions">
         IPACode
       </spid:IPACode>
+	  <spid:Public/>
       <spid:FiscalCode xmlns:spid="https://spid.gov.it/saml-extensions">
         0001010101
       </spid:FiscalCode>

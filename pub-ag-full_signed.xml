@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="bff93e4d-d684-47d8-9bba-228e50bf4fa1" entityID="https://sp.example.it/pub-ag-full/TEST">
+
+<ds:Signature Id="Signature1">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#bff93e4d-d684-47d8-9bba-228e50bf4fa1">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>jmK2QTWxQeGHt/rTAVnNfu1+mJRB5tcRxKXn4AYXJPw=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>CHRN5qyIvyQWctwDOFDFV3q/cK5Q3cKGgTKGF58nQmUemViretBPypMGNmL701Fi
+YdKTMvSB72m7KfVJv5Nm8AOBcnoFLlt5elhYI1Aiv5dfjPF+VG/MCPCXbKBTP8Ty
+Z/Y+0SR1t1RH7ghy9HrlR4DzzeTwQlAvu9aotx1/xqc39haD7MDYkhYxdZbtJolB
+JVFgApvSW8zNFvg9mrQmD9rKJmrxclkhJZtEuFmi3QiZ3lqW/OPRNvW73e6bPA3O
+XcEY8g8db5azO/0Iql5c9/8s5XzGSXSYJdg3Fd6DioYlcRml4fjuhPGPhSMZUg/A
+JnQDbHq3vQ8M8MIyObSfYjhGab0R5CLxXYsPF2DM28EULdWKS3nOQ/MT3MGvle4f
+qgDoT7xJrT9UwM9g4FGmTzdK070fGJfm07PJ5SkZX5O0YgQGds8Ye1oBQSKVzvle
+/f+1R+Tcm+scsUjALfnczHfs4xaEFshOI4Mw1DI4JJqYhnoO5qC5t3ONfuxrCZac</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>MIIGIDCCBIigAwIBAgIUJJnuBTw9qQIeesrmrx5XVpvro3cwDQYJKoZIhvcNAQEL
+BQAwgYgxGjAYBgNVBAoMEURldmVsb3BlcnMgSXRhbGlhMRUwEwYDVQQDDAxTUElE
+LlNQLlRFU1QxIDAeBgNVBFMMF2h0dHBzOi8vc3BpZC5leGFtcGxlLml0MRUwEwYD
+VQRhDAxQQTpJVC1jX2g1MDExCzAJBgNVBAYTAklUMQ0wCwYDVQQHDARSb21hMB4X
+DTIyMTEyMTA5NTc0NloXDTMyMTExODA5NTc0NlowgYgxGjAYBgNVBAoMEURldmVs
+b3BlcnMgSXRhbGlhMRUwEwYDVQQDDAxTUElELlNQLlRFU1QxIDAeBgNVBFMMF2h0
+dHBzOi8vc3BpZC5leGFtcGxlLml0MRUwEwYDVQRhDAxQQTpJVC1jX2g1MDExCzAJ
+BgNVBAYTAklUMQ0wCwYDVQQHDARSb21hMIIBojANBgkqhkiG9w0BAQEFAAOCAY8A
+MIIBigKCAYEAnN75iKO+SwyhGIGN1D/N/x2CTUOZETi9CZYEh+LOyQi28ngvWPBq
+PvIxc2IhB8zTcASYAFzJHDk9ECGZCEq1QNW23HwerIGGXwlZSGqjQe8j9r359QX1
+f1Ub/ygvnJe0BW4RFJXjJMNMl+gLpEbAviqRHAl1tXpVYl7HciLUkxOalsse7WVi
+ChKlsFhLEHAUFsdLQDHyOhtTOHJqIF1Kjvr5HNmbnb7QqEuB3E6zZUgHhwifSsbG
+hCVjz7SxgovywOKgPmZEVEWYap2uco1T7O0fh4YzW0zR5aPDWdHl4Y/ZR3j97SSL
+NkXJRaarM92x9w5dD6aTD+p9bRmaXiLt40xK85F6pHOzz5rGkjZpICVHhpNmt7YG
+12bHrXszVgy1ZwM4SbYe2LeXsoHAA6UmO3V1zbaM1r0nWFosb4eXCXjshjyd5cb/
+BPzel0F4Q4Y+RFSqEjCQNhfQZ9YPsu/kL1oqV4E+zM+TNdWFrGkuYBMvi2r0rTS/
+/w62Z4YYg72tAgMBAAGjggF+MIIBejAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIG
+wDBzBgNVHSAEbDBqMB8GAytMEDAYMBYGCCsGAQUFBwICMAoMCEFnSURyb290MCAG
+BCtMEAYwGDAWBggrBgEFBQcCAjAKDAhhZ0lEY2VydDAlBgYrTBAEAgEwGzAZBggr
+BgEFBQcCAjANDAtjZXJ0X1NQX1B1YjAdBgNVHQ4EFgQUlWHP8DrmPh+9rfCi147w
+ACw09S0wgcgGA1UdIwSBwDCBvYAUlWHP8DrmPh+9rfCi147wACw09S2hgY6kgYsw
+gYgxGjAYBgNVBAoMEURldmVsb3BlcnMgSXRhbGlhMRUwEwYDVQQDDAxTUElELlNQ
+LlRFU1QxIDAeBgNVBFMMF2h0dHBzOi8vc3BpZC5leGFtcGxlLml0MRUwEwYDVQRh
+DAxQQTpJVC1jX2g1MDExCzAJBgNVBAYTAklUMQ0wCwYDVQQHDARSb21hghQkme4F
+PD2pAh56yuavHldWm+ujdzANBgkqhkiG9w0BAQsFAAOCAYEAigIxLD3qGEMBJ50F
+GZstnG8+IsrGCkPjSGevjGAmneRqB8qm9fs1W3AaSvbQJaKeXUIyeuQsWWyBrxIq
+QFaEswBzrMlU97h5IRdgaGQgjrhua3I0Yaupm5qlOvTbLWJqzDN4dI9Vtectgep+
+IptSgj2Qs0L4nxfsl8QnjJiLzR/JRYsYDW2wgMraFTwa1GYwejv0/g/4d93pzUKY
+r/BV3AuAMBrsSj+X+fmG8L90S8Gz9jxfUc3SL6dB3sNa6bvAaM/akKDyAZaGGdl8
+FaLTD9/IOz5SBw8GGbHJELnmF9ZdE9belBrQkMHzPezIbt0lAUgVO9TuH5kDQhAU
+S/yHA9QfjiqhSWd2M13J2G4IxEyiNGi/GV4wWiXfmKaZLcJGsvyZMcpkdAF34dlN
+G7VWbSHsgJXAoQ+VlTcvu3ZVADgpMWwrWV60HIgXkSSSdobGUaCCPPS0AK5hbSVL
+E6AwQUTszzPQ4Pmj81iRmTwDjE80dWvZarvFn1U2OZj+7usY</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIGIDCCBIigAwIBAgIUJJnuBTw9qQIeesrmrx5XVpvro3cwDQYJKoZIhvcNAQEL
+BQAwgYgxGjAYBgNVBAoMEURldmVsb3BlcnMgSXRhbGlhMRUwEwYDVQQDDAxTUElE
+LlNQLlRFU1QxIDAeBgNVBFMMF2h0dHBzOi8vc3BpZC5leGFtcGxlLml0MRUwEwYD
+VQRhDAxQQTpJVC1jX2g1MDExCzAJBgNVBAYTAklUMQ0wCwYDVQQHDARSb21hMB4X
+DTIyMTEyMTA5NTc0NloXDTMyMTExODA5NTc0NlowgYgxGjAYBgNVBAoMEURldmVs
+b3BlcnMgSXRhbGlhMRUwEwYDVQQDDAxTUElELlNQLlRFU1QxIDAeBgNVBFMMF2h0
+dHBzOi8vc3BpZC5leGFtcGxlLml0MRUwEwYDVQRhDAxQQTpJVC1jX2g1MDExCzAJ
+BgNVBAYTAklUMQ0wCwYDVQQHDARSb21hMIIBojANBgkqhkiG9w0BAQEFAAOCAY8A
+MIIBigKCAYEAnN75iKO+SwyhGIGN1D/N/x2CTUOZETi9CZYEh+LOyQi28ngvWPBq
+PvIxc2IhB8zTcASYAFzJHDk9ECGZCEq1QNW23HwerIGGXwlZSGqjQe8j9r359QX1
+f1Ub/ygvnJe0BW4RFJXjJMNMl+gLpEbAviqRHAl1tXpVYl7HciLUkxOalsse7WVi
+ChKlsFhLEHAUFsdLQDHyOhtTOHJqIF1Kjvr5HNmbnb7QqEuB3E6zZUgHhwifSsbG
+hCVjz7SxgovywOKgPmZEVEWYap2uco1T7O0fh4YzW0zR5aPDWdHl4Y/ZR3j97SSL
+NkXJRaarM92x9w5dD6aTD+p9bRmaXiLt40xK85F6pHOzz5rGkjZpICVHhpNmt7YG
+12bHrXszVgy1ZwM4SbYe2LeXsoHAA6UmO3V1zbaM1r0nWFosb4eXCXjshjyd5cb/
+BPzel0F4Q4Y+RFSqEjCQNhfQZ9YPsu/kL1oqV4E+zM+TNdWFrGkuYBMvi2r0rTS/
+/w62Z4YYg72tAgMBAAGjggF+MIIBejAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIG
+wDBzBgNVHSAEbDBqMB8GAytMEDAYMBYGCCsGAQUFBwICMAoMCEFnSURyb290MCAG
+BCtMEAYwGDAWBggrBgEFBQcCAjAKDAhhZ0lEY2VydDAlBgYrTBAEAgEwGzAZBggr
+BgEFBQcCAjANDAtjZXJ0X1NQX1B1YjAdBgNVHQ4EFgQUlWHP8DrmPh+9rfCi147w
+ACw09S0wgcgGA1UdIwSBwDCBvYAUlWHP8DrmPh+9rfCi147wACw09S2hgY6kgYsw
+gYgxGjAYBgNVBAoMEURldmVsb3BlcnMgSXRhbGlhMRUwEwYDVQQDDAxTUElELlNQ
+LlRFU1QxIDAeBgNVBFMMF2h0dHBzOi8vc3BpZC5leGFtcGxlLml0MRUwEwYDVQRh
+DAxQQTpJVC1jX2g1MDExCzAJBgNVBAYTAklUMQ0wCwYDVQQHDARSb21hghQkme4F
+PD2pAh56yuavHldWm+ujdzANBgkqhkiG9w0BAQsFAAOCAYEAigIxLD3qGEMBJ50F
+GZstnG8+IsrGCkPjSGevjGAmneRqB8qm9fs1W3AaSvbQJaKeXUIyeuQsWWyBrxIq
+QFaEswBzrMlU97h5IRdgaGQgjrhua3I0Yaupm5qlOvTbLWJqzDN4dI9Vtectgep+
+IptSgj2Qs0L4nxfsl8QnjJiLzR/JRYsYDW2wgMraFTwa1GYwejv0/g/4d93pzUKY
+r/BV3AuAMBrsSj+X+fmG8L90S8Gz9jxfUc3SL6dB3sNa6bvAaM/akKDyAZaGGdl8
+FaLTD9/IOz5SBw8GGbHJELnmF9ZdE9belBrQkMHzPezIbt0lAUgVO9TuH5kDQhAU
+S/yHA9QfjiqhSWd2M13J2G4IxEyiNGi/GV4wWiXfmKaZLcJGsvyZMcpkdAF34dlN
+G7VWbSHsgJXAoQ+VlTcvu3ZVADgpMWwrWV60HIgXkSSSdobGUaCCPPS0AK5hbSVL
+E6AwQUTszzPQ4Pmj81iRmTwDjE80dWvZarvFn1U2OZj+7usY</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.aggregator.it/slo"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.aggregator.it/slo"/>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.aggregator.it/sso" index="0" isDefault="true"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.aggregator.it/sso" index="1" isDefault="false"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">Set 0
+            </md:ServiceName>
+            <md:ServiceDescription xml:lang="it">Login Attribute Set 0
+            </md:ServiceDescription>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="1">
+            <md:ServiceName xml:lang="it">Set 1
+            </md:ServiceName>
+            <md:ServiceDescription xml:lang="it">Login Attribute Set 1
+            </md:ServiceDescription>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="it">Organizzazione fittizia per il collaudo</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">Organizzazione fittizia per il collaudo</md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">https://www.aggregator.it
+        </md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+        <md:Extensions>
+            <spid:VATNumber>IT000000000000</spid:VATNumber>
+            <spid:PublicServicesFullAggregator/>
+        </md:Extensions>
+        <md:Company>Aggregator</md:Company>
+        <md:EmailAddress>email@aggregator.it</md:EmailAddress>
+        <md:TelephoneNumber>+3912345678</md:TelephoneNumber>
+    </md:ContactPerson>
+    <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+        <md:Extensions>
+            <spid:IPACode>IPA</spid:IPACode>
+            <spid:Public/>
+        </md:Extensions>
+        <md:Company>Organizzazione fittizia per il collaudo</md:Company>
+    </md:ContactPerson>
+</md:EntityDescriptor>

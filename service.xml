@@ -1,0 +1,58 @@
+<md:EntityDescriptor entityID="https://sfa-service-dev-ed.develop.my.salesforce.com" ID="_uniqueID" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"  validUntil="2032-12-17T15:57:58.394Z"  xmlns:spid="https://spid.gov.it/saml-extensions" xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo>
+            <ds:X509Data>
+               <ds:X509Certificate>MIIErDCCA5SgAwIBAgIOAYUvBUXwAAAAAAJ1W4MwDQYJKoZIhvcNAQELBQAwgZAx
+KDAmBgNVBAMMH1NlbGZTaWduZWRDZXJ0XzIwRGVjMjAyMl8xMDEyMzIxGDAWBgNV
+BAsMDzAwRDY4MDAwMDAxYzVWQjEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAU
+BgNVBAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0Ew
+HhcNMjIxMjIwMTAxMjMyWhcNMjMxMjIwMDAwMDAwWjCBkDEoMCYGA1UEAwwfU2Vs
+ZlNpZ25lZENlcnRfMjBEZWMyMDIyXzEwMTIzMjEYMBYGA1UECwwPMDBENjgwMDAw
+MDFjNVZCMRcwFQYDVQQKDA5TYWxlc2ZvcmNlLmNvbTEWMBQGA1UEBwwNU2FuIEZy
+YW5jaXNjbzELMAkGA1UECAwCQ0ExDDAKBgNVBAYTA1VTQTCCASIwDQYJKoZIhvcN
+AQEBBQADggEPADCCAQoCggEBAJg7psyz137JlseKsd2xieZ3J4sz13vyCNUyh8lx
+C1aEXnOIZRqCAnXjkZE/R9PY6Cd1pnEKac9O8jjboyQ/P9Rd3D580ntBm2os+UEU
+9h2j9XOyFHXwQqxvpzlPvJcQst8GVv6ggEopfA9JIeu5q+wNA3KOMMeUm9XuHYjC
+FfChuVSqc6pxBuRNzWw9Rs3eLhyqU75VdxuXnX86c2u3XNVjuk3s1NfSxv5vLga2
+3ksR0kvU+kvBAF1yJxyFS3uCThivwzKQFFIVklym/XAHkXb/lJeYyGXzsskUq24H
+9Yej+lH8zglHQTD7U8aNQphxOFMYQYOCog2IpPiKuIb4YnUCAwEAAaOCAQAwgf0w
+HQYDVR0OBBYEFJ8i3+8CMtrlUQ9RRLSk0HBAU3V2MA8GA1UdEwEB/wQFMAMBAf8w
+gcoGA1UdIwSBwjCBv4AUnyLf7wIy2uVRD1FEtKTQcEBTdXahgZakgZMwgZAxKDAm
+BgNVBAMMH1NlbGZTaWduZWRDZXJ0XzIwRGVjMjAyMl8xMDEyMzIxGDAWBgNVBAsM
+DzAwRDY4MDAwMDAxYzVWQjEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAUBgNV
+BAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0GCDgGF
+LwVF8AAAAAACdVuDMA0GCSqGSIb3DQEBCwUAA4IBAQBOPUJbSs1a+JZZdrr7B5dy
+fjM8Gsb+hDuN+RCaWVMokXA9pTyArjLCMSeh//6xHYt2Gncn4cfn/3QzCB0vnlb+
+PKge+wrlcGNr9iT/8Wsrd3gEBrzW6kh9OwZRaZ0Bj46Jm+yxgFDRD7wvOakIJAWc
+X15cC6T1U64T5ySUqsDolPlbyewvC5EgZ2oCZnHYcbrY59SccEwKrQ/erzle3DGt
+114IL1BasowQWxEWgbXn7Rwj69B7+zRfXHcp5fsXF40lZS9BoMLJCR/kLo+o0W4X
+TWidQv+6I/0skvVoym1amkWsALCysSKFiPidPvHV6ftGmlSnIEnNQj9NbHUinMJy</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sfa-service-dev-ed.develop.my.salesforce.com/services/auth/sp/saml2/logout"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sfa-service-dev-ed.develop.my.salesforce.com/services/auth/sp/saml2/logout"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sfa-service-dev-ed.develop.my.salesforce.com" index="0" isDefault="true"/>
+   </md:SPSSODescriptor>
+   <md:Organization>
+    <md:OrganizationName xml:lang="it">Ente di esempio</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Ente di esempio</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">http://www.example.org</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other" spid:entityType="">
+    <md:Extensions>
+      <spid:IPACode xmlns:spid="https://spid.gov.it/saml-extensions">
+        IPACode
+      </spid:IPACode>
+      <spid:FiscalCode xmlns:spid="https://spid.gov.it/saml-extensions">
+        0001010101
+      </spid:FiscalCode>
+      <spid:Public xmlns:spid="https://spid.gov.it/saml-extensions"/>
+    </md:Extensions>
+    <md:EmailAddress>
+      supporto.spid@example.org
+    </md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

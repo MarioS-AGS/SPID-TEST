@@ -153,8 +153,6 @@ E6AwQUTszzPQ4Pmj81iRmTwDjE80dWvZarvFn1U2OZj+7usY</ds:X509Certificate>
       </spid:FiscalCode>
       <spid:Private/>
     </md:Extensions>
-    <md:EmailAddress>
-      supporto.spid@example.org
-    </md:EmailAddress>
+    <md:EmailAddress>email@aggregator.it</md:EmailAddress>
   </md:ContactPerson>
 </md:EntityDescriptor>
